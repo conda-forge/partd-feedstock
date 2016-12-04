@@ -11,6 +11,18 @@ Summary: Concurrent appendable key-value storage
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/partd-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/partd-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/partd-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/partd-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/partd-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/partd-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/partd/badges/version.svg)](https://anaconda.org/conda-forge/partd)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/partd/badges/downloads.svg)](https://anaconda.org/conda-forge/partd)
+
 Installing partd
 ================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `partd` available on your platform
 ```
 conda search partd --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/partd-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/partd-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/partd-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/partd-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/partd-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/partd-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/partd/badges/version.svg)](https://anaconda.org/conda-forge/partd)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/partd/badges/downloads.svg)](https://anaconda.org/conda-forge/partd)
 
 
 Updating partd-feedstock
