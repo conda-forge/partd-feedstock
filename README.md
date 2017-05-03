@@ -7,7 +7,7 @@ Package license: BSD 3-Clause
 
 Feedstock license: BSD 3-Clause
 
-Summary: Concurrent appendable key-value storage
+Summary: Data structure for on-disk shuffle operations
 
 
 
