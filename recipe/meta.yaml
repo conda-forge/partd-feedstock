@@ -1,4 +1,4 @@
-{% set version = "0.3.7" %}
+{% set version = "0.3.8" %}
 
 package:
   name: partd
@@ -7,7 +7,7 @@ package:
 source:
   fn: partd-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/partd/partd-{{ version }}.tar.gz
-  sha256: fdc344bca07f3b10645cc380950a00bbfcdbf993f3396715eb0936d14811cd18
+  sha256: 67291f1c4827cde3e0148b3be5d69af64b6d6169feb9ba88f0a6cfe77089400f
 
 build:
   number: 0
