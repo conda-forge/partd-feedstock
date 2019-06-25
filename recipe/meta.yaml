@@ -1,4 +1,4 @@
-{% set version = "0.3.10" %}
+{% set version = "1.0.0" %}
 
 package:
   name: partd
@@ -7,11 +7,11 @@ package:
 source:
   fn: partd-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/partd/partd-{{ version }}.tar.gz
-  sha256: 33722a228ebcd1fa6f44b1631bdd4cff056376f89eb826d7d880b35b637bcfba
+  sha256: 54fd91bc3b9c38159c790cd16950dbca6b019a2ead4c51dee4f9efc884f8ce0e
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
