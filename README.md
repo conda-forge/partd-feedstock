@@ -1,11 +1,11 @@
-About partd
-===========
+About partd-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/partd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/dask/partd
 
 Package license: BSD 3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/partd-feedstock/blob/main/LICENSE.txt)
 
 Summary: Data structure for on-disk shuffle operations
 
@@ -146,6 +146,5 @@ Feedstock Maintainers
 * [@TomAugspurger](https://github.com/TomAugspurger/)
 * [@jcrist](https://github.com/jcrist/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
-* [@koverholt](https://github.com/koverholt/)
 * [@mrocklin](https://github.com/mrocklin/)
 
