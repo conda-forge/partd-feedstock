@@ -5,13 +5,12 @@ package:
   version: {{ version }}
 
 source:
-  fn: partd-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/p/partd/partd-{{ version }}.tar.gz
   sha256: aa0ff35dbbcc807ae374db56332f4c1b39b46f67bf2975f5151e0b4186aed0d5
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
@@ -19,21 +18,22 @@ requirements:
     - pip
     - python >=3.7
     - setuptools
-    - locket
-    - toolz
-
   run:
     - python >=3.7
     - locket
     - toolz
 
 test:
+  requires:
+    - pip
+  commands:
+    - pip check
   imports:
     - partd
 
 about:
   home: https://github.com/dask/partd
-  license: BSD 3-Clause
+  license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Data structure for on-disk shuffle operations
 
