@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/partd-feedstock
 
 Home: https://github.com/dask/partd
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
 Summary: Data structure for on-disk shuffle operations
 
