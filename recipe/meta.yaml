@@ -17,7 +17,9 @@ requirements:
   host:
     - pip
     - python >=3.9
-    - setuptools
+    - setuptools >=61.2
+    - versioneer =0.29
+    - tomli
   run:
     - python >=3.9
     - locket
